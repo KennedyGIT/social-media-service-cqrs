@@ -267,6 +267,10 @@
               "target": "Package",
               "version": "[7.0.1, )"
             },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.21.0, )"
+            },
             "MongoDB.Driver.Core": {
               "target": "Package",
               "version": "[2.21.0, )"

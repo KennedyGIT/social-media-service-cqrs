@@ -79,3 +79,4 @@ C:\Kennedy Projects\Self Development\sm-post\post.cmd.api\obj\Debug\net6.0\refin
 C:\Kennedy Projects\Self Development\sm-post\post.cmd.api\obj\Debug\net6.0\post.cmd.api.pdb
 C:\Kennedy Projects\Self Development\sm-post\post.cmd.api\obj\Debug\net6.0\post.cmd.api.genruntimeconfig.cache
 C:\Kennedy Projects\Self Development\sm-post\post.cmd.api\obj\Debug\net6.0\ref\post.cmd.api.dll
+C:\Kennedy Projects\Self Development\sm-post\post.cmd.api\bin\Debug\net6.0\MongoDB.Driver.dll

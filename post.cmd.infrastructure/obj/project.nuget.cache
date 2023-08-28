@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "xh9gka04kH6jh75dMYx4JlNjXBVCxOhSUyUvUCtYHxd5YJUEHJ5lIxt9RT/ttVOPD/UJ3jkdgQBVlvQLeq1zwQ==",
+  "dgSpecHash": "VDTfQ0uiYOgJXb5fsC1STLEshUffAnytOjVmPfZCHs9SiOBS2saHFNaUyja/JGtQV6JxCINVvoYmnsuWbtPAmQ==",
   "success": true,
   "projectFilePath": "C:\\Kennedy Projects\\Self Development\\sm-post\\post.cmd.infrastructure\\post.cmd.infrastructure.csproj",
   "expectedPackageFiles": [
@@ -16,6 +16,7 @@
     "C:\\Users\\Kenmb\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\Kenmb\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\Kenmb\\.nuget\\packages\\mongodb.bson\\2.21.0\\mongodb.bson.2.21.0.nupkg.sha512",
+    "C:\\Users\\Kenmb\\.nuget\\packages\\mongodb.driver\\2.21.0\\mongodb.driver.2.21.0.nupkg.sha512",
     "C:\\Users\\Kenmb\\.nuget\\packages\\mongodb.driver.core\\2.21.0\\mongodb.driver.core.2.21.0.nupkg.sha512",
     "C:\\Users\\Kenmb\\.nuget\\packages\\mongodb.libmongocrypt\\1.8.0\\mongodb.libmongocrypt.1.8.0.nupkg.sha512",
     "C:\\Users\\Kenmb\\.nuget\\packages\\sharpcompress\\0.30.1\\sharpcompress.0.30.1.nupkg.sha512",

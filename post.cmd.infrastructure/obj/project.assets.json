@@ -289,6 +289,25 @@
           }
         }
       },
+      "MongoDB.Driver/2.21.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "2.0.0",
+          "MongoDB.Bson": "2.21.0",
+          "MongoDB.Driver.Core": "2.21.0",
+          "MongoDB.Libmongocrypt": "1.8.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/MongoDB.Driver.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/MongoDB.Driver.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "MongoDB.Driver.Core/2.21.0": {
         "type": "package",
         "dependencies": {
@@ -822,6 +841,25 @@
         "packageIcon.png"
       ]
     },
+    "MongoDB.Driver/2.21.0": {
+      "sha512": "VxKj1wuhadiXhaXkykCWRgsYOysdaOYJ202hJFz25UjkrqC/tHA8RS4hdS5HYfGWoI//fypBXnxZCkEjXLXdfw==",
+      "type": "package",
+      "path": "mongodb.driver/2.21.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net472/MongoDB.Driver.dll",
+        "lib/net472/MongoDB.Driver.xml",
+        "lib/netstandard2.0/MongoDB.Driver.dll",
+        "lib/netstandard2.0/MongoDB.Driver.xml",
+        "lib/netstandard2.1/MongoDB.Driver.dll",
+        "lib/netstandard2.1/MongoDB.Driver.xml",
+        "mongodb.driver.2.21.0.nupkg.sha512",
+        "mongodb.driver.nuspec",
+        "packageIcon.png"
+      ]
+    },
     "MongoDB.Driver.Core/2.21.0": {
       "sha512": "Ac44U3bQfinmdH5KNFjTidJe9LKW87SxkXJ3YuIUJQMITEc4083YF1yvjJxaSeYF9er0YgHSmwhHpsZv0Fwplg==",
       "type": "package",
@@ -1127,6 +1165,7 @@
     "net6.0": [
       "Confluent.Kafka >= 2.2.0",
       "Microsoft.Extensions.Options >= 7.0.1",
+      "MongoDB.Driver >= 2.21.0",
       "MongoDB.Driver.Core >= 2.21.0",
       "core >= 1.0.0",
       "post.cmd.domain >= 1.0.0"
@@ -1189,6 +1228,10 @@
           "Microsoft.Extensions.Options": {
             "target": "Package",
             "version": "[7.0.1, )"
+          },
+          "MongoDB.Driver": {
+            "target": "Package",
+            "version": "[2.21.0, )"
           },
           "MongoDB.Driver.Core": {
             "target": "Package",

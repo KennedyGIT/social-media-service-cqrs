@@ -10,6 +10,7 @@
         "dependencies": {
           "Confluent.Kafka": "2.2.0",
           "Microsoft.Extensions.Options": "7.0.1",
+          "MongoDB.Driver": "2.21.0",
           "MongoDB.Driver.Core": "2.21.0",
           "core": "1.0.0",
           "post.cmd.domain": "1.0.0"
@@ -247,6 +248,20 @@
           }
         }
       },
+      "MongoDB.Driver/2.21.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "2.0.0",
+          "MongoDB.Bson": "2.21.0",
+          "MongoDB.Driver.Core": "2.21.0",
+          "MongoDB.Libmongocrypt": "1.8.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/MongoDB.Driver.dll": {
+            "assemblyVersion": "2.21.0.0",
+            "fileVersion": "2.21.0.0"
+          }
+        }
+      },
       "MongoDB.Driver.Core/2.21.0": {
         "dependencies": {
           "AWSSDK.SecurityToken": "3.7.100.14",
@@ -441,6 +456,13 @@
       "sha512": "sha512-QT+D1I3Jz6r6S6kCgJD1L9dRCLVJCKlkGRkA+tJ7uLpHRmjDNcNKy4D1T+L9gQrjl95lDN9PHdwEytdvCW/jzA==",
       "path": "mongodb.bson/2.21.0",
       "hashPath": "mongodb.bson.2.21.0.nupkg.sha512"
+    },
+    "MongoDB.Driver/2.21.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VxKj1wuhadiXhaXkykCWRgsYOysdaOYJ202hJFz25UjkrqC/tHA8RS4hdS5HYfGWoI//fypBXnxZCkEjXLXdfw==",
+      "path": "mongodb.driver/2.21.0",
+      "hashPath": "mongodb.driver.2.21.0.nupkg.sha512"
     },
     "MongoDB.Driver.Core/2.21.0": {
       "type": "package",
