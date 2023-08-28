@@ -1,0 +1,8 @@
+-- Create new class library
+dotnet new classlib -o {className}
+-- Create new solution 
+dotnet new sln
+-- Create new web api template 
+dotnet new webapi
+-- Add project to solution 
+dotnet sln add {path of the csproj file}

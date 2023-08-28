@@ -1,0 +1,17 @@
+C:\Kennedy Projects\Self Development\sm-post\post.cmd.domain\bin\Debug\net6.0\post.cmd.domain.deps.json
+C:\Kennedy Projects\Self Development\sm-post\post.cmd.domain\bin\Debug\net6.0\post.cmd.domain.dll
+C:\Kennedy Projects\Self Development\sm-post\post.cmd.domain\bin\Debug\net6.0\post.cmd.domain.pdb
+C:\Kennedy Projects\Self Development\sm-post\post.cmd.domain\bin\Debug\net6.0\core.dll
+C:\Kennedy Projects\Self Development\sm-post\post.cmd.domain\bin\Debug\net6.0\post.common.dll
+C:\Kennedy Projects\Self Development\sm-post\post.cmd.domain\bin\Debug\net6.0\core.pdb
+C:\Kennedy Projects\Self Development\sm-post\post.cmd.domain\bin\Debug\net6.0\post.common.pdb
+C:\Kennedy Projects\Self Development\sm-post\post.cmd.domain\obj\Debug\net6.0\post.cmd.domain.csproj.AssemblyReference.cache
+C:\Kennedy Projects\Self Development\sm-post\post.cmd.domain\obj\Debug\net6.0\post.cmd.domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Kennedy Projects\Self Development\sm-post\post.cmd.domain\obj\Debug\net6.0\post.cmd.domain.AssemblyInfoInputs.cache
+C:\Kennedy Projects\Self Development\sm-post\post.cmd.domain\obj\Debug\net6.0\post.cmd.domain.AssemblyInfo.cs
+C:\Kennedy Projects\Self Development\sm-post\post.cmd.domain\obj\Debug\net6.0\post.cmd.domain.csproj.CoreCompileInputs.cache
+C:\Kennedy Projects\Self Development\sm-post\post.cmd.domain\obj\Debug\net6.0\post.cmd.domain.csproj.CopyComplete
+C:\Kennedy Projects\Self Development\sm-post\post.cmd.domain\obj\Debug\net6.0\post.cmd.domain.dll
+C:\Kennedy Projects\Self Development\sm-post\post.cmd.domain\obj\Debug\net6.0\refint\post.cmd.domain.dll
+C:\Kennedy Projects\Self Development\sm-post\post.cmd.domain\obj\Debug\net6.0\post.cmd.domain.pdb
+C:\Kennedy Projects\Self Development\sm-post\post.cmd.domain\obj\Debug\net6.0\ref\post.cmd.domain.dll

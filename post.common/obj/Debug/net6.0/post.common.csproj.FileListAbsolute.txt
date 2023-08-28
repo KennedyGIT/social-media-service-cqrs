@@ -1,0 +1,15 @@
+C:\Kennedy Projects\Self Development\sm-post\post.common\bin\Debug\net6.0\post.common.deps.json
+C:\Kennedy Projects\Self Development\sm-post\post.common\bin\Debug\net6.0\post.common.dll
+C:\Kennedy Projects\Self Development\sm-post\post.common\bin\Debug\net6.0\post.common.pdb
+C:\Kennedy Projects\Self Development\sm-post\post.common\bin\Debug\net6.0\core.dll
+C:\Kennedy Projects\Self Development\sm-post\post.common\bin\Debug\net6.0\core.pdb
+C:\Kennedy Projects\Self Development\sm-post\post.common\obj\Debug\net6.0\post.common.csproj.AssemblyReference.cache
+C:\Kennedy Projects\Self Development\sm-post\post.common\obj\Debug\net6.0\post.common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Kennedy Projects\Self Development\sm-post\post.common\obj\Debug\net6.0\post.common.AssemblyInfoInputs.cache
+C:\Kennedy Projects\Self Development\sm-post\post.common\obj\Debug\net6.0\post.common.AssemblyInfo.cs
+C:\Kennedy Projects\Self Development\sm-post\post.common\obj\Debug\net6.0\post.common.csproj.CoreCompileInputs.cache
+C:\Kennedy Projects\Self Development\sm-post\post.common\obj\Debug\net6.0\post.common.csproj.CopyComplete
+C:\Kennedy Projects\Self Development\sm-post\post.common\obj\Debug\net6.0\post.common.dll
+C:\Kennedy Projects\Self Development\sm-post\post.common\obj\Debug\net6.0\refint\post.common.dll
+C:\Kennedy Projects\Self Development\sm-post\post.common\obj\Debug\net6.0\post.common.pdb
+C:\Kennedy Projects\Self Development\sm-post\post.common\obj\Debug\net6.0\ref\post.common.dll

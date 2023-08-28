@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\core\core.csproj" />
+    <ProjectReference Include="..\post.common\post.common.csproj" />
+    <ProjectReference Include="..\post.query.domain\post.query.domain.csproj" />
+    <ProjectReference Include="..\post.query.infrastructure\post.query.infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

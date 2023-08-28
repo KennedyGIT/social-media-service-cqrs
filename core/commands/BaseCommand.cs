@@ -1,0 +1,13 @@
+﻿using core.messages;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace core.commands
+{
+    public class BaseCommand : Message
+    {
+    }
+}

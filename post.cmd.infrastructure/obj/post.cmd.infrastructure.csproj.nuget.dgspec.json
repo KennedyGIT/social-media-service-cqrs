@@ -1,0 +1,278 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Kennedy Projects\\Self Development\\sm-post\\post.cmd.infrastructure\\post.cmd.infrastructure.csproj": {}
+  },
+  "projects": {
+    "C:\\Kennedy Projects\\Self Development\\sm-post\\core\\core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Kennedy Projects\\Self Development\\sm-post\\core\\core.csproj",
+        "projectName": "core",
+        "projectPath": "C:\\Kennedy Projects\\Self Development\\sm-post\\core\\core.csproj",
+        "packagesPath": "C:\\Users\\Kenmb\\.nuget\\packages\\",
+        "outputPath": "C:\\Kennedy Projects\\Self Development\\sm-post\\core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Kenmb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MongoDB.Driver.Core": {
+              "target": "Package",
+              "version": "[2.21.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Kennedy Projects\\Self Development\\sm-post\\post.cmd.domain\\post.cmd.domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Kennedy Projects\\Self Development\\sm-post\\post.cmd.domain\\post.cmd.domain.csproj",
+        "projectName": "post.cmd.domain",
+        "projectPath": "C:\\Kennedy Projects\\Self Development\\sm-post\\post.cmd.domain\\post.cmd.domain.csproj",
+        "packagesPath": "C:\\Users\\Kenmb\\.nuget\\packages\\",
+        "outputPath": "C:\\Kennedy Projects\\Self Development\\sm-post\\post.cmd.domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Kenmb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Kennedy Projects\\Self Development\\sm-post\\core\\core.csproj": {
+                "projectPath": "C:\\Kennedy Projects\\Self Development\\sm-post\\core\\core.csproj"
+              },
+              "C:\\Kennedy Projects\\Self Development\\sm-post\\post.common\\post.common.csproj": {
+                "projectPath": "C:\\Kennedy Projects\\Self Development\\sm-post\\post.common\\post.common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Kennedy Projects\\Self Development\\sm-post\\post.cmd.infrastructure\\post.cmd.infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Kennedy Projects\\Self Development\\sm-post\\post.cmd.infrastructure\\post.cmd.infrastructure.csproj",
+        "projectName": "post.cmd.infrastructure",
+        "projectPath": "C:\\Kennedy Projects\\Self Development\\sm-post\\post.cmd.infrastructure\\post.cmd.infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Kenmb\\.nuget\\packages\\",
+        "outputPath": "C:\\Kennedy Projects\\Self Development\\sm-post\\post.cmd.infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Kenmb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Kennedy Projects\\Self Development\\sm-post\\core\\core.csproj": {
+                "projectPath": "C:\\Kennedy Projects\\Self Development\\sm-post\\core\\core.csproj"
+              },
+              "C:\\Kennedy Projects\\Self Development\\sm-post\\post.cmd.domain\\post.cmd.domain.csproj": {
+                "projectPath": "C:\\Kennedy Projects\\Self Development\\sm-post\\post.cmd.domain\\post.cmd.domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "MongoDB.Driver.Core": {
+              "target": "Package",
+              "version": "[2.21.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Kennedy Projects\\Self Development\\sm-post\\post.common\\post.common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Kennedy Projects\\Self Development\\sm-post\\post.common\\post.common.csproj",
+        "projectName": "post.common",
+        "projectPath": "C:\\Kennedy Projects\\Self Development\\sm-post\\post.common\\post.common.csproj",
+        "packagesPath": "C:\\Users\\Kenmb\\.nuget\\packages\\",
+        "outputPath": "C:\\Kennedy Projects\\Self Development\\sm-post\\post.common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Kenmb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Kennedy Projects\\Self Development\\sm-post\\core\\core.csproj": {
+                "projectPath": "C:\\Kennedy Projects\\Self Development\\sm-post\\core\\core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

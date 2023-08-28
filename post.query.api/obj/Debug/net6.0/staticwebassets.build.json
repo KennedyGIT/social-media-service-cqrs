@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "TpUQ++RUY0djbeRFaCBHPkSF++bK9rerqVMgfsXYGHM=",
+  "Source": "post.query.api",
+  "BasePath": "_content/post.query.api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

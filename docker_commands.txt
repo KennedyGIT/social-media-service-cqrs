@@ -1,0 +1,24 @@
+Get List of Containers
+-- docker ps
+
+Create a Network in Docker 
+-- docker network create --attachable -d bridge {NameOfYourNetwork}
+
+(--attachable) allows you to attach docker containers to the network 
+
+(--d) allows you to specify the drive of the network.
+
+List the available networks on the docker host 
+-- docker network ls
+
+Get the docker compose version 
+-- docker-compose --version
+
+Install a mongoDb image on docker 
+
+docker run -it -d --name mongo-container -p 27017:27017 --network {nameOfYourNetwork} --restart always -v mongodb_data_container:/data/db mongo:latest
+
+Install Microsoft SQL server on docker 
+
+docker run --name sql_2019 -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=root" --network {nameOfYourNetwork} --restart always -e "MSSQL_PID=Enterprise" -p 1433:1433 -d mcr.microsoft.com/mssql/server:2019-latest
+

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "RDfaxTs+X/G8wshszkS4rKptSXCuTUkXjqbn+shSoBI=",
+  "Source": "post.cmd.api",
+  "BasePath": "_content/post.cmd.api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
