@@ -8,7 +8,7 @@ namespace core.events
         {
             this.Type = type;
         }
-        public int version { get; set; }
+        public int Version { get; set; }
 
         public string Type { get; set; }
 
