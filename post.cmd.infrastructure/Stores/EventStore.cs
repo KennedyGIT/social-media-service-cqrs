@@ -2,6 +2,7 @@
 using core.events;
 using core.Exceptions;
 using core.Infrastructure;
+using core.Producers;
 using post.cmd.domain.Aggregates;
 
 namespace post.cmd.infrastructure.Stores
@@ -9,10 +10,12 @@ namespace post.cmd.infrastructure.Stores
     public class EventStore : IEventStore
     {
         private readonly IEventStoreRepository _eventStoreRepository;
+        private readonly IEventProducer _eventProducer;
 
-        public EventStore(IEventStoreRepository eventStoreRepository)
+        public EventStore(IEventStoreRepository eventStoreRepository, IEventProducer eventProducer)
         {
-            this._eventStoreRepository = eventStoreRepository;
+            _eventStoreRepository = eventStoreRepository;
+            _eventProducer = eventProducer;
         }
 
         public async Task<List<BaseEvent>> GetEventsAsync(Guid aggregateId)
@@ -50,6 +53,9 @@ namespace post.cmd.infrastructure.Stores
                 };
 
                 await _eventStoreRepository.SaveAsync(eventModel);
+
+                var topic = Environment.GetEnvironmentVariable("KAFKA_TOPIC");
+                await _eventProducer.ProduceAsync(topic, @event);
             }
         }
     }

@@ -372,6 +372,9 @@
               },
               "C:\\Kennedy Projects\\Self Development\\sm-post\\post.cmd.domain\\post.cmd.domain.csproj": {
                 "projectPath": "C:\\Kennedy Projects\\Self Development\\sm-post\\post.cmd.domain\\post.cmd.domain.csproj"
+              },
+              "C:\\Kennedy Projects\\Self Development\\sm-post\\post.query.domain\\post.query.domain.csproj": {
+                "projectPath": "C:\\Kennedy Projects\\Self Development\\sm-post\\post.query.domain\\post.query.domain.csproj"
               }
             }
           }
@@ -389,6 +392,10 @@
             "Confluent.Kafka": {
               "target": "Package",
               "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[7.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
