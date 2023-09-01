@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text.Json.Serialization;
 
 namespace post.query.domain.Entities
@@ -6,6 +7,7 @@ namespace post.query.domain.Entities
     [Table("Comments")]
     public class CommentEntity
     {
+        [Key]
         public Guid CommentId { get; set; }
         public string Username { get; set; }
         public DateTime CommentDate { get; set; }

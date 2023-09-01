@@ -5,7 +5,7 @@ VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{4A6BD6A8-68C5-42EB-9305-8516FEAC5AD8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "core", "..\core\core.csproj", "{0796AD79-E224-41C7-B8BB-F0A5C085597A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "core", "..\core\core.csproj", "{0796AD79-E224-41C7-B8BB-F0A5C085597A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sm-post", "sm-post", "{982881B2-1529-4BF6-A2D6-6B41415724B7}"
 EndProject
@@ -13,19 +13,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "post.cmd", "post.cmd", "{E2
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "post.query", "post.query", "{A50B0AF0-6BA6-47D5-AF3E-2CC908E55470}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "post.cmd.api", "..\post.cmd.api\post.cmd.api.csproj", "{7BD1F033-2129-40C3-BCD8-04337D039870}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "post.cmd.api", "..\post.cmd.api\post.cmd.api.csproj", "{7BD1F033-2129-40C3-BCD8-04337D039870}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "post.cmd.domain", "..\post.cmd.domain\post.cmd.domain.csproj", "{C7181827-EDE1-48B1-A334-D438FF7C5A34}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "post.cmd.domain", "..\post.cmd.domain\post.cmd.domain.csproj", "{C7181827-EDE1-48B1-A334-D438FF7C5A34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "post.cmd.infrastructure", "..\post.cmd.infrastructure\post.cmd.infrastructure.csproj", "{8D69362C-F3B1-45B8-B0FA-98A2C3E111C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "post.cmd.infrastructure", "..\post.cmd.infrastructure\post.cmd.infrastructure.csproj", "{8D69362C-F3B1-45B8-B0FA-98A2C3E111C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "post.query.api", "..\post.query.api\post.query.api.csproj", "{D8B8B159-E303-46CA-BD8F-76F9370F9355}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "post.query.api", "..\post.query.api\post.query.api.csproj", "{D8B8B159-E303-46CA-BD8F-76F9370F9355}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "post.query.domain", "..\post.query.domain\post.query.domain.csproj", "{3904788C-B193-40C5-AECA-A91F1FE7128A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "post.query.domain", "..\post.query.domain\post.query.domain.csproj", "{3904788C-B193-40C5-AECA-A91F1FE7128A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "post.query.infrastructure", "..\post.query.infrastructure\post.query.infrastructure.csproj", "{0A46C7B0-DB9C-4508-874C-23A24331EC1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "post.query.infrastructure", "..\post.query.infrastructure\post.query.infrastructure.csproj", "{0A46C7B0-DB9C-4508-874C-23A24331EC1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "post.common", "..\post.common\post.common.csproj", "{D8CC18C0-1374-457B-984C-425D284F4D7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "post.common", "..\post.common\post.common.csproj", "{D8CC18C0-1374-457B-984C-425D284F4D7B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "post.common", "post.common", "{3FDA698B-01C0-4A80-AF23-56382F9D8ED1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -79,7 +81,8 @@ Global
 		{D8B8B159-E303-46CA-BD8F-76F9370F9355} = {A50B0AF0-6BA6-47D5-AF3E-2CC908E55470}
 		{3904788C-B193-40C5-AECA-A91F1FE7128A} = {A50B0AF0-6BA6-47D5-AF3E-2CC908E55470}
 		{0A46C7B0-DB9C-4508-874C-23A24331EC1B} = {A50B0AF0-6BA6-47D5-AF3E-2CC908E55470}
-		{D8CC18C0-1374-457B-984C-425D284F4D7B} = {982881B2-1529-4BF6-A2D6-6B41415724B7}
+		{D8CC18C0-1374-457B-984C-425D284F4D7B} = {3FDA698B-01C0-4A80-AF23-56382F9D8ED1}
+		{3FDA698B-01C0-4A80-AF23-56382F9D8ED1} = {982881B2-1529-4BF6-A2D6-6B41415724B7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C9207C08-8686-43C9-ACAC-6EA1A80B11E3}

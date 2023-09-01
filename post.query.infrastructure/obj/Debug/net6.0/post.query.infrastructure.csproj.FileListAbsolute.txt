@@ -17,3 +17,5 @@ C:\Kennedy Projects\Self Development\sm-post\post.query.infrastructure\obj\Debug
 C:\Kennedy Projects\Self Development\sm-post\post.query.infrastructure\obj\Debug\net6.0\refint\post.query.infrastructure.dll
 C:\Kennedy Projects\Self Development\sm-post\post.query.infrastructure\obj\Debug\net6.0\post.query.infrastructure.pdb
 C:\Kennedy Projects\Self Development\sm-post\post.query.infrastructure\obj\Debug\net6.0\ref\post.query.infrastructure.dll
+C:\Kennedy Projects\Self Development\sm-post\post.query.infrastructure\bin\Debug\net6.0\post.query.domain.dll
+C:\Kennedy Projects\Self Development\sm-post\post.query.infrastructure\bin\Debug\net6.0\post.query.domain.pdb
