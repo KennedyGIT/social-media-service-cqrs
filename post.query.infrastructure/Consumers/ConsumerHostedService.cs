@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using core.Consumers;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
@@ -21,7 +22,7 @@ namespace post.query.infrastructure.Consumers
 
             using(IServiceScope scope = _serviceProvider.CreateScope()) 
             {
-                var eventConsumer = scope.ServiceProvider.GetRequiredService<EventConsumer>();
+                var eventConsumer = scope.ServiceProvider.GetRequiredService<IEventConsumer>();
                 var topic = Environment.GetEnvironmentVariable("KAFKA_TOPIC");
 
                 Task.Run(() => eventConsumer.Consume(topic), cancellationToken);

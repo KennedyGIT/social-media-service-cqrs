@@ -20,6 +20,7 @@ namespace post.cmd.api.Controllers
             _commandDispatcher = commandDispatcher;
         }
 
+        [HttpPost]
         public async Task<ActionResult> NewPostAsync(NewPostCommand command) 
         {
             var id = Guid.NewGuid();

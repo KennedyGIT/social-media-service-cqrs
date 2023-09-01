@@ -12,7 +12,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 Action<DbContextOptionsBuilder> configureDbContext = (o => o.UseLazyLoadingProxies().UseSqlServer(builder.Configuration.GetConnectionString("SqlServer")));
 builder.Services.AddDbContext<DatabaseContext>(configureDbContext);
-builder.Services.AddSingleton(new DatabaseContextFactory(configureDbContext));
+builder.Services.AddSingleton<DatabaseContextFactory>(new DatabaseContextFactory(configureDbContext));
 
 // Create Database and tables from Code
 var dataContext = builder.Services.BuildServiceProvider().GetRequiredService<DatabaseContext>();
@@ -26,6 +26,7 @@ builder.Services.Configure<ConsumerConfig>(builder.Configuration.GetSection(name
 builder.Services.AddScoped<IEventConsumer, EventConsumer>();
 
 builder.Services.AddControllers();
+builder.Services.AddHostedService<ConsumerHostedService>();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

@@ -15,6 +15,7 @@ namespace post.cmd.api.Commands
         public async Task HandleAsync(NewPostCommand command)
         {
             var aggregate = new PostAggregate(command.Id, command.Author, command.Message);
+
             await _eventSourcingHandler.SaveAsync(aggregate);
         }
 
