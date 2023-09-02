@@ -4,8 +4,10 @@ C:\Kennedy Projects\Self Development\sm-post\post.query.infrastructure\bin\Debug
 C:\Kennedy Projects\Self Development\sm-post\post.query.infrastructure\bin\Debug\net6.0\core.dll
 C:\Kennedy Projects\Self Development\sm-post\post.query.infrastructure\bin\Debug\net6.0\post.cmd.domain.dll
 C:\Kennedy Projects\Self Development\sm-post\post.query.infrastructure\bin\Debug\net6.0\post.common.dll
+C:\Kennedy Projects\Self Development\sm-post\post.query.infrastructure\bin\Debug\net6.0\post.query.domain.dll
 C:\Kennedy Projects\Self Development\sm-post\post.query.infrastructure\bin\Debug\net6.0\core.pdb
 C:\Kennedy Projects\Self Development\sm-post\post.query.infrastructure\bin\Debug\net6.0\post.cmd.domain.pdb
+C:\Kennedy Projects\Self Development\sm-post\post.query.infrastructure\bin\Debug\net6.0\post.query.domain.pdb
 C:\Kennedy Projects\Self Development\sm-post\post.query.infrastructure\bin\Debug\net6.0\post.common.pdb
 C:\Kennedy Projects\Self Development\sm-post\post.query.infrastructure\obj\Debug\net6.0\post.query.infrastructure.csproj.AssemblyReference.cache
 C:\Kennedy Projects\Self Development\sm-post\post.query.infrastructure\obj\Debug\net6.0\post.query.infrastructure.GeneratedMSBuildEditorConfig.editorconfig
@@ -17,5 +19,3 @@ C:\Kennedy Projects\Self Development\sm-post\post.query.infrastructure\obj\Debug
 C:\Kennedy Projects\Self Development\sm-post\post.query.infrastructure\obj\Debug\net6.0\refint\post.query.infrastructure.dll
 C:\Kennedy Projects\Self Development\sm-post\post.query.infrastructure\obj\Debug\net6.0\post.query.infrastructure.pdb
 C:\Kennedy Projects\Self Development\sm-post\post.query.infrastructure\obj\Debug\net6.0\ref\post.query.infrastructure.dll
-C:\Kennedy Projects\Self Development\sm-post\post.query.infrastructure\bin\Debug\net6.0\post.query.domain.dll
-C:\Kennedy Projects\Self Development\sm-post\post.query.infrastructure\bin\Debug\net6.0\post.query.domain.pdb

@@ -62,6 +62,11 @@ namespace post.cmd.domain.Aggregates
             {
                 throw new InvalidOperationException("You cannot like an inactive post");
             }
+
+            RaiseEvent(new PostLikedEvent
+            {
+                Id = _id
+            });
         }
 
         public void Apply(PostLikedEvent @event)
@@ -84,6 +89,7 @@ namespace post.cmd.domain.Aggregates
             RaiseEvent(new CommentAddedEvent
             {
                 Id = _id,
+                CommentId = Guid.NewGuid(),
                 Comment = comment,
                 Username = username,
                 CommentDate = DateTime.Now,
@@ -93,7 +99,7 @@ namespace post.cmd.domain.Aggregates
         public void Apply(CommentAddedEvent @event) 
         {
             _id = @event.Id;
-            _comments.Add(@event.Id, new Tuple<string, string>(@event.Comment, @event.Username));
+            _comments.Add(@event.CommentId, new Tuple<string, string>(@event.Comment, @event.Username));
         }
 
         public void EditComment(Guid commentId, string comment, string username) 

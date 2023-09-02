@@ -1,8 +1,10 @@
 using Confluent.Kafka;
 using core.Domain;
+using core.events;
 using core.Handlers;
 using core.Infrastructure;
 using core.Producers;
+using MongoDB.Bson.Serialization;
 using post.cmd.api.Commands;
 using post.cmd.domain.Aggregates;
 using post.cmd.infrastructure.Config;
@@ -11,8 +13,19 @@ using post.cmd.infrastructure.Handlers;
 using post.cmd.infrastructure.Producers;
 using post.cmd.infrastructure.Repositories;
 using post.cmd.infrastructure.Stores;
+using post.common.Events;
 
 var builder = WebApplication.CreateBuilder(args);
+
+BsonClassMap.RegisterClassMap<BaseEvent>();
+BsonClassMap.RegisterClassMap<PostCreatedEvent>();
+BsonClassMap.RegisterClassMap<MessageUpdatedEvent>();
+BsonClassMap.RegisterClassMap<PostLikedEvent>();
+BsonClassMap.RegisterClassMap<CommentAddedEvent>();
+BsonClassMap.RegisterClassMap<CommentUpdatedEvent>();
+BsonClassMap.RegisterClassMap<CommentRemovedEvent>(); 
+BsonClassMap.RegisterClassMap<PostRemovedEvent>();
+
 
 // Add services to the container.
 builder.Services.Configure<MongoDbConfig>(builder.Configuration.GetSection(nameof(MongoDbConfig)));

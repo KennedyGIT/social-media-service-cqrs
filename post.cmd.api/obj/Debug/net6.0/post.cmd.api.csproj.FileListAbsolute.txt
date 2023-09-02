@@ -14,6 +14,7 @@ C:\Kennedy Projects\Self Development\sm-post\post.cmd.api\bin\Debug\net6.0\Micro
 C:\Kennedy Projects\Self Development\sm-post\post.cmd.api\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
 C:\Kennedy Projects\Self Development\sm-post\post.cmd.api\bin\Debug\net6.0\Microsoft.OpenApi.dll
 C:\Kennedy Projects\Self Development\sm-post\post.cmd.api\bin\Debug\net6.0\MongoDB.Bson.dll
+C:\Kennedy Projects\Self Development\sm-post\post.cmd.api\bin\Debug\net6.0\MongoDB.Driver.dll
 C:\Kennedy Projects\Self Development\sm-post\post.cmd.api\bin\Debug\net6.0\MongoDB.Driver.Core.dll
 C:\Kennedy Projects\Self Development\sm-post\post.cmd.api\bin\Debug\net6.0\MongoDB.Libmongocrypt.dll
 C:\Kennedy Projects\Self Development\sm-post\post.cmd.api\bin\Debug\net6.0\SharpCompress.dll
@@ -79,4 +80,3 @@ C:\Kennedy Projects\Self Development\sm-post\post.cmd.api\obj\Debug\net6.0\refin
 C:\Kennedy Projects\Self Development\sm-post\post.cmd.api\obj\Debug\net6.0\post.cmd.api.pdb
 C:\Kennedy Projects\Self Development\sm-post\post.cmd.api\obj\Debug\net6.0\post.cmd.api.genruntimeconfig.cache
 C:\Kennedy Projects\Self Development\sm-post\post.cmd.api\obj\Debug\net6.0\ref\post.cmd.api.dll
-C:\Kennedy Projects\Self Development\sm-post\post.cmd.api\bin\Debug\net6.0\MongoDB.Driver.dll
