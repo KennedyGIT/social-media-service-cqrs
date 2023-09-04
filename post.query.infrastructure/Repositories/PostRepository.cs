@@ -30,6 +30,7 @@ namespace post.query.infrastructure.Repositories
             if (post == null) return;
 
             context.Posts.Remove(post);
+            await context.SaveChangesAsync();
         }
 
         public async Task<List<PostEntity>> ListAllAsync()

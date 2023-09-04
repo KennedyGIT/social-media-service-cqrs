@@ -1,9 +1,13 @@
 using Confluent.Kafka;
 using core.Consumers;
+using core.Infrastructure;
 using Microsoft.EntityFrameworkCore;
+using post.query.api.Queries;
+using post.query.domain.Entities;
 using post.query.domain.Repositories;
 using post.query.infrastructure.Consumers;
 using post.query.infrastructure.DataAccess;
+using post.query.infrastructure.Dispatchers;
 using post.query.infrastructure.Handlers;
 using post.query.infrastructure.Repositories;
 
@@ -21,9 +25,19 @@ dataContext.Database.EnsureCreated();
 
 builder.Services.AddScoped<IPostRepository, PostRepository>();
 builder.Services.AddScoped<ICommentRepository, CommentRepository>();
+builder.Services.AddScoped<IQueryHandler, QueryHandler>();
 builder.Services.AddScoped<IEventHandler, post.query.infrastructure.Handlers.EventHandler>();
 builder.Services.Configure<ConsumerConfig>(builder.Configuration.GetSection(nameof(ConsumerConfig)));
-builder.Services.AddScoped<IEventConsumer, EventConsumer>();
+builder.Services.AddScoped<IEventConsumer,  EventConsumer>();
+
+var queryHandler = builder.Services.BuildServiceProvider().GetRequiredService<IQueryHandler>();
+var dispatcher = new QueryDispatcher();
+dispatcher.RegisterHandler<FindAllPostsQuery>(queryHandler.HandleAsync);
+dispatcher.RegisterHandler<FindPostByIdQuery>(queryHandler.HandleAsync);
+dispatcher.RegisterHandler<FindPostsByAuthorQuery>(queryHandler.HandleAsync);
+dispatcher.RegisterHandler<FindPostsWithCommentsQuery>(queryHandler.HandleAsync);
+dispatcher.RegisterHandler<FindPostsWithLikesQuery>(queryHandler.HandleAsync);
+builder.Services.AddSingleton<IQueryDispatcher<PostEntity>>(_ => dispatcher);
 
 builder.Services.AddControllers();
 builder.Services.AddHostedService<ConsumerHostedService>();
