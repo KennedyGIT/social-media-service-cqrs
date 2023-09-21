@@ -7,7 +7,7 @@ using post.common.DTOs;
 namespace post.cmd.api.Controllers
 {
     
-    [ApiController]
+  [ApiController]
     [Route("api/v1/[controller]")]
     public class NewPostController : ControllerBase
     {
